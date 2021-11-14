@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="start">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_history2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_history3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_history4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_history5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_history6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史标注"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
