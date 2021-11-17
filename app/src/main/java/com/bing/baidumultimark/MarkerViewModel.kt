@@ -20,7 +20,9 @@ class MarkerViewModel : ViewModel() {
         //bundle key
         const val SP_ID = "sp_id"
         const val SP_STATE = "sp_state"
+        const val SP_COMMENT = "sp_comment"
     }
 
-    val options = MutableLiveData<HashMap<Long,MarkerOptions>>()
+    var options = HashMap<Long,MarkerOptions>()
+
 }
